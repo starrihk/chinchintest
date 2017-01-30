@@ -1,0 +1,104 @@
+{
+  "name": "chinchintest",
+  "scripts": {
+  },
+  "env": {
+    "ADMIN_EMAIL": {
+      "required": true
+    },
+    "ADMIN_PASSWORD": {
+      "required": true
+    },
+    "ADMIN_USERNAME": {
+      "required": true
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "required": true
+    },
+    "BONSAI_URL": {
+      "required": true
+    },
+    "BRAINTREE_MERCHANT_ID": {
+      "required": true
+    },
+    "BRAINTREE_PRIVATE_KEY": {
+      "required": true
+    },
+    "BRAINTREE_PUBLIC_KEY": {
+      "required": true
+    },
+    "CONFIRMATION_EMAIL": {
+      "required": true
+    },
+    "DEFAULT_FROM": {
+      "required": true
+    },
+    "DEVISE_SECRET": {
+      "required": true
+    },
+    "ELASTICSEARCH_URL": {
+      "required": true
+    },
+    "FACEBOOK_APP_ID": {
+      "required": true
+    },
+    "FACEBOOK_APP_SECRET": {
+      "required": true
+    },
+    "GOOGLE_MAPS_API_KEY": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "MAILER_URL": {
+      "required": true
+    },
+    "PAPERTRAIL_API_TOKEN": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "RAILS_ENV": {
+      "required": true
+    },
+    "RAILS_SERVE_STATIC_FILES": {
+      "required": true
+    },
+    "REDIS_PROVIDER": {
+      "required": true
+    },
+    "REDISCLOUD_URL": {
+      "required": true
+    },
+    "SECRET_KEY_BASE": {
+      "required": true
+    },
+    "SENDGRID_PASSWORD": {
+      "required": true
+    },
+    "SENDGRID_USERNAME": {
+      "required": true
+    },
+    "SERVER_ADDRESS": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "papertrail",
+    "bonsai",
+    "sendgrid",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
